@@ -10,7 +10,9 @@
 
 #ifdef TB_RENDERER_GL
 
-#ifdef TB_RENDERER_GLES_1
+#if defined(QT_GUI_LIB)
+#include <QtOpenGL/qgl.h>
+#elif defined(TB_RENDERER_GLES_1)
 #include <EGL/egl.h>
 #include <GLES/gl.h>
 #elif defined(_WIN32)

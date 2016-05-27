@@ -7,6 +7,10 @@
 #include "tb_system.h"
 #include "tb_tempbuffer.h"
 
+#ifdef QT_CORE_LIB
+# include <QDebug>
+#endif
+
 #ifdef TB_IMAGE_LOADER_STB
 
 namespace tb {
@@ -73,6 +77,9 @@ TBImageLoader *TBImageLoader::CreateFromFile(const char *filename)
 		}
 		delete file;
 	}
+# ifdef QT_CORE_LIB
+	qWarning() << "Failed to load image" << filename;
+# endif
 	return nullptr;
 }
 

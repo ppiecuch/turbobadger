@@ -114,5 +114,8 @@
 #define TB_CLIPBOARD_WINDOWS
 #define TB_SYSTEM_WINDOWS
 #endif
+#if defined(QT_GUI_LIB)
+#define TB_SYSTEM_QT
+#endif
 
 #endif // TB_CONFIG_H

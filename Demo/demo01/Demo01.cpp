@@ -23,6 +23,10 @@ AdvancedItemSource advanced_source;
 TBGenericStringItemSource name_source;
 TBGenericStringItemSource popup_menu_source;
 
+#ifdef QT_CORE_LIB
+# include <QDebug>
+#endif
+
 #ifdef TB_SUPPORT_CONSTEXPR
 
 void const_expr_test()
@@ -57,8 +61,12 @@ bool DemoWindow::LoadResourceFile(const char *filename)
 	// We could do g_widgets_reader->LoadFile(this, filename) but we want
 	// some extra data we store under "WindowInfo", so read into node tree.
 	TBNode node;
-	if (!node.ReadFile(filename))
+	if (!node.ReadFile(filename)) {
+# ifdef QT_CORE_LIB
+		qWarning() << "Failed to load resource file" << filename;
+# endif
 		return false;
+	}
 	LoadResource(node);
 	return true;
 }
