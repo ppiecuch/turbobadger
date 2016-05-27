@@ -156,3 +156,7 @@ Screenshot
 Some of the windows in the Demo application for desktop, using the default skin.
 
 ![Default skin](Demo/screenshot/screenshot_01.png)
+
+Qt port running on OSX:
+
+![Default skin](DemoQt/screenshot/screenshot_01.png)
