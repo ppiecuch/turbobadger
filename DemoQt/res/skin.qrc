@@ -1,0 +1,26 @@
+<RCC>
+  <qresource prefix="/">
+    <file>../../Demo/demo01/skin/bg_tile.png</file>
+    <file>../../Demo/demo01/skin/bg_tile.psd</file>
+    <file>../../Demo/demo01/skin/focus_r8.png</file>
+    <file>../../Demo/demo01/skin/icon128.png</file>
+    <file>../../Demo/demo01/skin/icon16.png</file>
+    <file>../../Demo/demo01/skin/icon48.png</file>
+    <file>../../Demo/demo01/skin/image_frame.png</file>
+    <file>../../Demo/demo01/skin/image_frame.psd</file>
+    <file>../../Demo/demo01/skin/remove.png</file>
+    <file>../../Demo/demo01/skin/skin.tb.txt</file>
+    <file>../../Demo/demo01/skin/special_button.png</file>
+    <file>../../Demo/demo01/skin/special_button.psd</file>
+    <file>../../Demo/demo01/skin/special_button_pressed.png</file>
+    <file>../../Demo/demo01/skin/star.psd</file>
+    <file>../../Demo/demo01/skin/star_gold.png</file>
+    <file>../../Demo/demo01/skin/star_gold@192.png</file>
+    <file>../../Demo/demo01/skin/star_gold@288.png</file>
+    <file>../../Demo/demo01/skin/star_gold@384.png</file>
+    <file>../../Demo/demo01/skin/star_gray.png</file>
+    <file>../../Demo/demo01/skin/star_gray@192.png</file>
+    <file>../../Demo/demo01/skin/star_gray@288.png</file>
+    <file>../../Demo/demo01/skin/star_gray@384.png</file>
+  </qresource>
+</RCC>

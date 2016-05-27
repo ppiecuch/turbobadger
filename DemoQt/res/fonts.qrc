@@ -1,0 +1,14 @@
+<RCC>
+  <qresource prefix="/">
+    <file>../../Demo/fonts/license.txt</file>
+    <file>../../Demo/fonts/neon.psd</file>
+    <file>../../Demo/fonts/neon.tb.txt</file>
+    <file>../../Demo/fonts/neon_42.png</file>
+    <file>../../Demo/fonts/orange.psd</file>
+    <file>../../Demo/fonts/orange.tb.txt</file>
+    <file>../../Demo/fonts/orange_30.png</file>
+    <file>../../Demo/fonts/orangutang.psd</file>
+    <file>../../Demo/fonts/orangutang.tb.txt</file>
+    <file>../../Demo/fonts/orangutang_48.png</file>
+  </qresource>
+</RCC>

@@ -1,0 +1,25 @@
+<RCC>
+  <qresource prefix="/">
+    <file>../../Demo/demo01/ui_resources/resource_edit_test.tb.txt</file>
+    <file>../../Demo/demo01/ui_resources/resource_edit_window.tb.txt</file>
+    <file>../../Demo/demo01/ui_resources/test_animations.tb.txt</file>
+    <file>../../Demo/demo01/ui_resources/test_batching01.tb.txt</file>
+    <file>../../Demo/demo01/ui_resources/test_connections.tb.txt</file>
+    <file>../../Demo/demo01/ui_resources/test_image_widget.tb.txt</file>
+    <file>../../Demo/demo01/ui_resources/test_layout01.tb.txt</file>
+    <file>../../Demo/demo01/ui_resources/test_layout02.tb.txt</file>
+    <file>../../Demo/demo01/ui_resources/test_layout03.tb.txt</file>
+    <file>../../Demo/demo01/ui_resources/test_list_item.tb.txt</file>
+    <file>../../Demo/demo01/ui_resources/test_radio_checkbox.tb.txt</file>
+    <file>../../Demo/demo01/ui_resources/test_scrollcontainer.tb.txt</file>
+    <file>../../Demo/demo01/ui_resources/test_scroller_snap.tb.txt</file>
+    <file>../../Demo/demo01/ui_resources/test_select.tb.txt</file>
+    <file>../../Demo/demo01/ui_resources/test_select_advanced.tb.txt</file>
+    <file>../../Demo/demo01/ui_resources/test_skin_conditions01.tb.txt</file>
+    <file>../../Demo/demo01/ui_resources/test_skin_conditions02.tb.txt</file>
+    <file>../../Demo/demo01/ui_resources/test_tabcontainer01.tb.txt</file>
+    <file>../../Demo/demo01/ui_resources/test_textwindow.tb.txt</file>
+    <file>../../Demo/demo01/ui_resources/test_toggle_containers.tb.txt</file>
+    <file>../../Demo/demo01/ui_resources/test_ui.tb.txt</file>
+  </qresource>
+</RCC>
