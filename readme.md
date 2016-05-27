@@ -141,6 +141,20 @@ custom build & deploy script (Windows .bat file. There's currently no Linux/Mac
 scripts).
 
 
+Building the Qt demo
+-----------------------------------------------------------------------------------
+
+It should be enough to run:
+
+~/Qt/5.6/clang_64/bin/qmake qturbobadger.pro
+
+in DemoQt directory (just use qmake from your distribution/configuration). No
+dependencies are required to build the demo. In my configuration I run the app
+with simple:
+
+./build-macx-clang/qturbobadger
+
+
 Author
 -----------------------------------------------------------------------------------
 
